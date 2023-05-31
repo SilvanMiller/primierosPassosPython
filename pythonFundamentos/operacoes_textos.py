@@ -50,7 +50,10 @@ print(len(frase4))#Contador de caracteres
 print(frase4.lower())#converter tudo para minusculo(caixa baixa)
 print(frase4.upper())#Converter tudo em maiusculo(caixa ALTA)
 print(frase4.capitalize())#faz o inicio do texto ficar em maiusculo
+print(dir(str))
 
 print('------------------')
 dados = "Silvan;44anos;1,73;touro" 
 print(dados.split(';'))#separando em uma lista para usar como quiser
+
+
