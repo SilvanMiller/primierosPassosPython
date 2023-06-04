@@ -34,9 +34,9 @@ postagens = [
 """
 Percorrendo textos, tuplas, set
 """
-#PALAVRA = "Silvan"
-#for letra in PALAVRA: #Percorrendo textos
-#    print(f'- {letra} -')
+PALAVRA = "Silvan"
+for letra in PALAVRA: #Percorrendo textos
+    print(f'- {letra} -')
 
 meses = ('Janeiro', 'Fevereiro', 'Março')
 for mes in meses: #percorrendo tuplas 
