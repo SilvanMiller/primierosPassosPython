@@ -38,15 +38,15 @@ postagens = [
 #        print("°°°°°°°°°°°°°°°°°°°°")
         
         
-#TOTAL_PSTGNS = len(postagens) #usando o break para interromper o códgo
-#POST = 0 
-#while POST < TOTAL_PSTGNS:
-#    print(f'{POST} - {postagens[POST]}')
-#    print("°°°°°°°°°°°°°°°°°°°°")
-#    POST += 1
-#    if POST == 2:
-#        break
-#print("fim")
+TOTAL_PSTGNS = len(postagens) #usando o break para interromper o códgo
+POST = 0 
+while POST < TOTAL_PSTGNS:
+    print(f'{POST} - {postagens[POST]}')
+    print("°°°°°°°°°°°°°°°°°°°°")
+    POST += 1
+    if POST == 2:
+        break
+print("fim")
 
 
 TOTAL_PSTGNS = len(postagens) #usando o if e continue
