@@ -28,20 +28,29 @@
 #mapped_numbers  = list(map(lambda n: n * 2 + 3, numbers))
 #print(mapped_numbers)
 
+#----------------------------------------------------------
 
-aquarium_creatures = [
-    {'name': 'sammy', 'species': 'shark', 'tank number': 11, 'type': 'fish'},
-    {'name': 'ashley', 'species': 'crab', 'tank number': 25, 'type': 'shellfish'},
-    {'name': 'jo', 'species': 'guppy', 'tank number': 18, 'type': 'fish'},
-    {'name': 'jackie', 'species': 'lobster', 'tank number': 21, 'type': 'shellfish'},
-    {'name': 'charlie', 'species': 'clownfish', 'tank number': 12, 'type': 'fish'},
-    {'name': 'olly', 'species': 'green turtle', 'tank number': 34, 'type': 'turtle'},
-]
-def assign_to_tank(aquarium_creatures, new_tank_number):
-    def apply(n):
-        n['tank number'] = new_tank_number
-        return n
-    return map(apply, aquarium_creatures)
+#aquarium_creatures = [
+#    {'name': 'sammy', 'species': 'shark', 'tank number': 11, 'type': 'fish'},
+#    {'name': 'ashley', 'species': 'crab', 'tank number': 25, 'type': 'shellfish'},
+#    {'name': 'jo', 'species': 'guppy', 'tank number': 18, 'type': 'fish'},
+#    {'name': 'jackie', 'species': 'lobster', 'tank number': 21, 'type': 'shellfish'},
+#    {'name': 'charlie', 'species': 'clownfish', 'tank number': 12, 'type': 'fish'},
+#    {'name': 'olly', 'species': 'green turtle', 'tank number': 34, 'type': 'turtle'},
+#]
+#def assign_to_tank(aquarium_creatures, new_tank_number):
+#    def apply(n):
+#        n['tank number'] = new_tank_number
+#        return n
+#    return map(apply, aquarium_creatures)
 
-assigned_tank = assign_to_tank(aquarium_creatures, 42)
-print(list(assigned_tank))
+#assigned_tank = assign_to_tank(aquarium_creatures, 42)
+#print(list(assigned_tank))
+
+#----------------------------------------------------------
+
+#Usando map para percorer e pow para fornecer a potência
+base_numbers = [2, 4, 6, 8, 10, 12, 14, 16] #mesmo sendo maior o map so vai percorer a qnt da lista powers
+powers = [1, 2, 3, 4, 5]
+numberes_powers = list(map(pow, base_numbers, powers))
+print(numberes_powers) #[2**1, 4**2, 6**3, 8**4, 10**5] = [2, 16, 216, 4096, 100000]
