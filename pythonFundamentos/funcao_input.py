@@ -7,8 +7,8 @@ nome = input('Qual seu nome? ')
 #int_n1 = int(n_1)
 #int_n2 = int(n_2)
 
-#print(f'A soma dos numeros é {n_1 + n_2}')# assim ele concatena pois n_1 2 n_2 são str
-#print(f'A soma dos numeros é {int_n1 + int_n2}')# assim ele concatena pois n_1 2 n_2 são str
+#print(f'A soma dos numeros é {n_1 + n_2}')# assim ele concatena pois n_1 e n_2 são str
+#print(f'A soma dos numeros é {int_n1 + int_n2}')# assim ele soma por n1 e n2 sao int agora.
 
 #input com if e else
 entrada = input('Você quer "entrar" ou "sair ' )
