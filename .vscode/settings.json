@@ -2,5 +2,16 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.formatting.provider": "none"
+  "code-runner.executorMap": {
+    "python": "cls ; python -u",
+},
+"code-runner.runInTerminal": true,
+"code-runner.clearPreviousOutput": true,
+"code-runner.ignoreSelection": true,
+"editor.fontSize": 18,
+"explorer.compactFolders": false,
+"python.formatting.provider": "none",
+"python.defaultInterpreterPath": "python",
+"workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+
 }
