@@ -37,8 +37,14 @@ print(VALOR)
 
 RESULTADO = 2 + 2 * 2
 RESULTADO1 = 2 + 2 / 2 * 3  # sempre da esquerda para direita
-RESULTADO2 = 2 + 2 * 2 / 3
+RESULTADO2 = 2 + 2 * 2 // 3 #com duas // ele tira o .333333333
+RESULTADO2_1 = 2 + 2 * 2 / 3 #com duas // ele tira o .333333333
 RESULTADO3 = 2 + 2 - 2 + 3
 RESULTADO4 = (2 - 10) * 3
 RESULTADO5 = 2 - 10 * 3
-print(RESULTADO, RESULTADO1, RESULTADO2, RESULTADO3, RESULTADO4, RESULTADO5)
+
+repeticao_string = "A" * 10
+
+print(RESULTADO, RESULTADO1, RESULTADO2, RESULTADO3, RESULTADO4, RESULTADO5, RESULTADO2_1)
+print(10 % 8 == 0)
+print(repeticao_string)
