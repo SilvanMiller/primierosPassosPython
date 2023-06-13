@@ -71,3 +71,53 @@
 #else:
 #    print('Sair')
     
+#-----------Operador lógico OR -------------------------
+
+#entrada = input('[E]entrar [S]sair ')
+#senha_digitada = input('Senha: ')
+#senha_permitida = '123456' #só para teste, nunca a senha fica assim.
+
+#if (entrada == 'E' or entrada == 'e') and senha_digitada == senha_permitida:#
+#    print('Entrada permitida')
+    
+#else:
+#    print('Sair')
+
+#----AVALIAÇÃO DE CURTO CIRCUITO----
+#senha = input('Senha: ') or 'Sem senha' #aquifoi feito uma condição similar a um if
+#print(senha)
+
+#-----------Operador lógico NOT  -------------------------
+# Para inversão de valores onde é true se torna false e vise e versa 
+
+#print(not True) #False invertendo os valores 
+#print(not False) #True invertendo os valores
+
+#senha = input('Senha: ')
+#if senha != '123456':
+#if not senha:
+    #print('Senha incorreta')
+    #print('Você não digitou nada')
+    
+#-----------Operador in e not in  -------------------------
+# esta entre = in / não esta entre = not in
+# Strings são interaveis 
+#  0 1 2 3 4 5  
+#  S I L V A N 
+# -6-5-4-3-2-1
+
+nome = 'Silvan'
+print(nome[1])
+print(nome[-4])
+print('v' in nome)
+print('van' in nome) #van esta em nome(Silvan) = True
+print('mi' not in nome) #mi não esta em nome(Silvan) = True(sim não esta)
+
+nome2 = input('Digite seu nome: ')
+encontrar = input('Digite o que deseja encontrar: ')
+
+if encontrar in nome2:
+    print(f'{encontrar} esta em {nome2}')
+else:
+    print(f'{encontrar} não esta em {nome2}')
+    
