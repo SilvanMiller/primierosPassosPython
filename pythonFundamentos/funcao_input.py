@@ -106,18 +106,36 @@
 #  S I L V A N 
 # -6-5-4-3-2-1
 
-nome = 'Silvan'
-print(nome[1])
-print(nome[-4])
-print('v' in nome)
-print('van' in nome) #van esta em nome(Silvan) = True
-print('mi' not in nome) #mi não esta em nome(Silvan) = True(sim não esta)
+##nome = 'Silvan'
+##print(nome[1])
+##print(nome[-4])
+##print('v' in nome)
+##print('van' in nome) #van esta em nome(Silvan) = True
+##print('mi' not in nome) #mi não esta em nome(Silvan) = True(sim não esta)
 
-nome2 = input('Digite seu nome: ')
-encontrar = input('Digite o que deseja encontrar: ')
+##nome2 = input('Digite seu nome: ')
+##encontrar = input('Digite o que deseja encontrar: ')
 
-if encontrar in nome2:
-    print(f'{encontrar} esta em {nome2}')
+##if encontrar in nome2:
+##    print(f'{encontrar} esta em {nome2}')
+#else:
+#    print(f'{encontrar} não esta em {nome2}')
+
+  
+nome3 = input('Digite seu nome: ')
+idade = input('Digite a sua idade: ')
+
+if nome3 and idade:
+    print(f'Seu nome é {nome3}')
+    print(f'Seu nome invertido é {nome3[::-1]}')
+    if ' ' in nome3:
+        print('Seu nome contém espaços?')
+    else:
+        print('Seu nome NÃO contém espaços?')
+    
+    print(f'Seu nome tem {len(nome3)} letras')
+    print(f'A primeira letra do seu nome é {nome3[0]}')
+    print(f'A ultima letra do seu nome é {nome3[-1]}')
 else:
-    print(f'{encontrar} não esta em {nome2}')
+    print('"Desculpe, você deixou campos vazios!!"')
     
