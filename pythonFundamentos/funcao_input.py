@@ -106,20 +106,20 @@
 #  S I L V A N 
 # -6-5-4-3-2-1
 
-##nome = 'Silvan'
-##print(nome[1])
-##print(nome[-4])
-##print('v' in nome)
-##print('van' in nome) #van esta em nome(Silvan) = True
-##print('mi' not in nome) #mi não esta em nome(Silvan) = True(sim não esta)
+nome = 'Silvan'
+print(nome[1])
+print(nome[-4])
+print('v' in nome)
+print('van' in nome) #van esta em nome(Silvan) = True
+print('mi' not in nome) #mi não esta em nome(Silvan) = True(sim não esta)
 
-##nome2 = input('Digite seu nome: ')
-##encontrar = input('Digite o que deseja encontrar: ')
+nome2 = input('Digite seu nome: ')
+encontrar = input('Digite o que deseja encontrar: ')
 
-##if encontrar in nome2:
-##    print(f'{encontrar} esta em {nome2}')
-#else:
-#    print(f'{encontrar} não esta em {nome2}')
+if encontrar in nome2:
+    print(f'{encontrar} esta em {nome2}')
+else:
+    print(f'{encontrar} não esta em {nome2}')
 
   
 nome3 = input('Digite seu nome: ')
