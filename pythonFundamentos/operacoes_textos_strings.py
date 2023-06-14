@@ -1,5 +1,41 @@
 #Operações com textos
 
+"""
+Formatação básica de strings
+s - string
+d - int
+f - float
+.<número de dígitos>f
+x ou X - Hexadecimal
+(Caractere)(> < ^)(quantidade)
+> - Esquerda
+< - Direita
+^ - Centro
+= - Força o número a aparecer antes dos zeros
+Sinal - + ou -
+Ex.: 0>-100,.1f
+Conversion flags - !r !s !a 
+
+Fatiamento de strings
+ 012345678
+ Olá mundo
+-987654321
+Fatiamento [i:f:p] [::] #inicio fim passo
+Obs.: a função len retorna a qtd 
+de caracteres da str
+
+"""
+
+#variavel = 'ABC'
+#print(f'{variavel}')
+#print(f'{variavel: >10}')
+#print(f'{variavel: <10}.')
+#print(f'{variavel: ^10}.')
+#print(f'{variavel:$^10}.') #faz o preenchimento tanto de um lado qnt do outro
+#print(f'{1000.4873648123746:0=+10,.1f}')
+#print(f'O hexadecimal de 1500 é {1500:08X}')
+#print(f'{variavel!r}')
+
 TEXTO = 'carro'
 print(TEXTO[0])
 print(TEXTO[1])
@@ -55,5 +91,4 @@ print(dir(str))
 print('------------------')
 dados = "Silvan;44anos;1,73;touro" 
 print(dados.split(';'))#separando em uma lista para usar como quiser
-
 
