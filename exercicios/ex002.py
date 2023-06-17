@@ -1,5 +1,6 @@
 # ---------- EXERCICIOS BASICOS E VAI MELHORAR --------------------
 
+
 print('EX001 - Faça um programa que leia um número inteiro e mostre na tela seu sucessor e seu antecessor.')
 n = int(input('Digite um númro inteiro: '))
 print(f'O número {n} te como seu antecessor o número {n - 1} e seu sucessor é {n + 1}\n\n')
@@ -26,6 +27,7 @@ print(f'Sua medida {metros}m corresponde a {cm:.0f}cm e a {mm:.0f}mm\n\n')
 
 print('EX005 - faça um programa que leia um número inteiro qualquer e mostre a sua tabuada ')
 num = int(input('Digite um número e veja sua tabuada: '))
+#depois vai ter com for 
 print(f'{num} x 1 = {num * 1}')
 print(f'{num} x 2 = {num * 2}')
 print(f'{num} x 3 = {num * 3}')
@@ -67,3 +69,20 @@ funcioanrio = input('Digite o nome do Funcionario ')
 salario = float(input('Digite o Salário do Funcionario R$ '))
 nv_salario = salario + (salario * 15 /100)
 print(f'O colaborador {funcioanrio} teve um aumento \nde 15% em seu salario de R${salario:.2f} para R${nv_salario:.2f}\n\n')
+
+
+
+print('EX010 - Excreva um programa que comverta uma temperatura digitada em °C e converta para °F.')
+celsius = float(input('Informe a temperatura em °C: '))
+fahrenheit = ((9*celsius) /5) + 32
+print(f'A temperatura de {celsius}°c corresponde a {fahrenheit}°f\n\n')
+
+
+
+print('EX11 - Excreva um programa que pergunte a qntdd de km percorridos por um carro alugado e a gntdd de dias pelos quais ele foi alugado, calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 o km rodado')
+dias = int(input('Quantos dias alugados? '))
+km = float(input('Quantidade de Km rodado? '))
+pago = (dias * 60) + (km * 0.15)
+print(f'O total a pagar por {dias} dias alugados e R${pago:.2f}reais\n\n')
+
+
