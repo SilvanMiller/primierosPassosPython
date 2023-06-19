@@ -14,7 +14,7 @@ print(f'O número {n} o seu dobro é {n * 2}, e seu triplo é {n * 3} e sua raiz
 print('EX003 - desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua media. ')
 nome = input('Digite o nome do aluno: ')
 nota_1 = float(input(f'Digite a primeira nota do aluno {nome}: '))
-nota_2 = float(input(f'Digite a segunda nota: '))
+nota_2 = float(input('Digite a segunda nota: '))
 print(f'As notas do aluno {nome} são {nota_1} e {nota_2} e a sua media é {(nota_1 + nota_2) / 2}\n\n')
 
 

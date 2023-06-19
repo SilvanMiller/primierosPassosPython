@@ -3,7 +3,7 @@ Python = linguagem de programação
 tipo de tipagem = dinâmica / forte 
 str -> string -> "textos"
 """
-#USO PARA ALGUSN ESTUDOS PARA AJUDAR NO ENTENDIMENTO
+#USO PARA ALGUNs ESTUDOS PARA AJUDAR NO ENTENDIMENTO
 
 nome = "Silvan"
 sobrenome = "Miller"
