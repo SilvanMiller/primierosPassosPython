@@ -55,3 +55,4 @@ print(f'E a ordem de apresentação vai ser, {apresentacao}\n\n')
 #pygame.mixer.music.load('MiguelGrippBeath.mp3')
 #pygame.mixer.music.play()
 #pygame.event.wait()
+#verificar como importar a pygame

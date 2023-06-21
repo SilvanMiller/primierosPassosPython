@@ -65,7 +65,7 @@ print(TEXTO[::-1])#vamos inverter e pgr do final para o onicio sem pular
 
 print('------------------')#\n indica um nova linha(new line) já i \t uma tabulação
 frase = "\tMeu nome é 'Silvan'"
-frase2 = "\n\tEu sou um programado web e estou aprndendo python"
+frase2 = "\n\tEu sou um programado web e estou aprendendo python"
 frase3 = """
 ---------------------------
 Meu nome é 'Silvan'
@@ -75,7 +75,7 @@ Meu nome é 'Silvan'
 """#aqui ja usamos a ideis do comentario porem ele mantem a quebra de linha e a tabulação que vc digitar.
 #print(frase, frase2, frase3)
 
-frase4 = 'meu nome é Silvan'
+frase4 = '   meu nome é Silvan  '
 print('nome' in frase4)#aqui vc verifica se existe alguma coisa dentro do texto(string) usando o operador in 
 print('silvan' in frase4)
 print('Silvan' in frase4)#ele não difere maisculo de minusculo 
@@ -86,7 +86,20 @@ print(len(frase4))#Contador de caracteres
 print(frase4.lower())#converter tudo para minusculo(caixa baixa)
 print(frase4.upper())#Converter tudo em maiusculo(caixa ALTA)
 print(frase4.capitalize())#faz o inicio do texto ficar em maiusculo
-print(dir(str))
+print(frase4.title()) #faz as inicias de cada palavra ficar maiusculo
+print(frase4.strip()) #aqui estamos removendo espços antes da string ou ao final
+print(frase4.rstrip()) #aqui estamos removendo espços a direita(rigth) da string 
+print(frase4.lstrip()) #aqui estamso removendo espços a esquerda(left) da string
+print(frase4.split()) #aqui estamso removendo espços antes da string ou ao final
+
+
+print(frase.replace('Silvan', 'Luke'))
+print(frase4.count('m'))
+print(frase4.find('Sil'))
+print(frase4.find('cara')) #-1 diz que não foi localizado
+
+
+#print(dir(str))
 
 print('------------------')
 dados = "Silvan;44anos;1,73;touro" 
