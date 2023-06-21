@@ -63,7 +63,8 @@ print('------------------')#aqui os :: indica para ele pular conforme o indicado
 print(TEXTO[::2])#pegou o 0(C) pulou o 1, pegou o 2(R) pulou o 3, pegou o 4(O)
 print(TEXTO[::-1])#vamos inverter e pgr do final para o onicio sem pular
 
-print('------------------')#\n indica um nova linha(new line) já i \t uma tabulação
+print('------------------')
+    #\n indica um nova linha(new line) já i \t uma tabulação
 frase = "\tMeu nome é 'Silvan'"
 frase2 = "\n\tEu sou um programado web e estou aprendendo python"
 frase3 = """
@@ -75,6 +76,7 @@ Meu nome é 'Silvan'
 """#aqui ja usamos a ideis do comentario porem ele mantem a quebra de linha e a tabulação que vc digitar.
 #print(frase, frase2, frase3)
 
+dados = "Silvan;44anos;1,73;touro" 
 frase4 = '   meu nome é Silvan  '
 print('nome' in frase4)#aqui vc verifica se existe alguma coisa dentro do texto(string) usando o operador in 
 print('silvan' in frase4)
@@ -90,18 +92,27 @@ print(frase4.title()) #faz as inicias de cada palavra ficar maiusculo
 print(frase4.strip()) #aqui estamos removendo espços antes da string ou ao final
 print(frase4.rstrip()) #aqui estamos removendo espços a direita(rigth) da string 
 print(frase4.lstrip()) #aqui estamso removendo espços a esquerda(left) da string
-print(frase4.split()) #aqui estamso removendo espços antes da string ou ao final
+print(frase4.split()) #
+print(dados.split(';'))#separando em uma lista para usar como quiser
 
 
 print(frase.replace('Silvan', 'Luke'))
 print(frase4.count('m'))
 print(frase4.find('Sil'))
+print(frase4.lower().find('sil'))
 print(frase4.find('cara')) #-1 diz que não foi localizado
 
+print('''
 
-#print(dir(str))
+    Bem-vindo ao tutorial interativo de Python do LearnPython.org.
+Seja você um programador experiente ou não, este site é destinado a todos que desejam aprender a linguagem de programação Python.
+Você está convidado a se juntar ao nosso grupo no Facebook para perguntas, discussões e atualizações.
+Depois de concluir os tutoriais, você pode obter a certificação no LearnX e adicionar sua certificação ao seu perfil do LinkedIn.
+Basta clicar no capítulo que deseja começar e seguir as instruções. Boa sorte!
+''') 
+
+
 
 print('------------------')
-dados = "Silvan;44anos;1,73;touro" 
-print(dados.split(';'))#separando em uma lista para usar como quiser
+#print(dir(str))
 
