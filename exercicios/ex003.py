@@ -1,7 +1,6 @@
 # ---------- EXERCICIOS BASICOS (MODULOS) ------------------------------------
 #import pygame
 import math
-from random import shuffle, choice
 #fron math import radians, sin, cos tan, trunc, hypot
 
 
@@ -30,25 +29,7 @@ print(f'O ângulo de {angulo} tem o cosseno de {cosseno:.2f}')
 print(f'O ângulo de {angulo} tem o tangente de {tangnt:.2f}\n\n')
 
 
-print('EX015 - Uma mãe quer sortear um dos seus quatros filhos para lavar a louça. Faça um programa que leia os nomes e sortei o escolhido')
-nome1 = input('Digite o nome do seu filho: ')
-nome2 = input('Digite o nome do seu outro filho: ')
-nome3 = input('Digite o nome do e outro filho: ')
-nome4 = input('Digite o nome e ainda tem filho: ')
-lavar_louca = [nome1, nome2, nome3, nome4]
-escolhido = choice(lavar_louca)
-print(f'E o felizardo(a) foi, trum trum trum {escolhido}\n\n')
 
-
-
-print('EX016 - Uma professora quer sortear a ordem de apresentação dos trabalhos. Faça um programa que leia o nome dos trabalhos e mostre a ordem sorteada ')
-trab_1 = input('Digite o nome do grupo 1: ')
-trab_2 = input('Digite o nome do grupo 2: ')
-trab_3 = input('Digite o nome do grupo 3: ')
-trab_4 = input('Digite o nome do grupo 4: ')
-apresentacao = [trab_1, trab_2, trab_3, trab_4]
-shuffle(apresentacao)
-print(f'E a ordem de apresentação vai ser, {apresentacao}\n\n')
 
 #print('EX017 - Faça um programa em PYTHON que abra e reproduza o áudio e um arquivo em MP3')
 #pygame.init()
@@ -56,3 +37,4 @@ print(f'E a ordem de apresentação vai ser, {apresentacao}\n\n')
 #pygame.mixer.music.play()
 #pygame.event.wait()
 #verificar como importar a pygame
+
