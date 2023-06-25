@@ -38,7 +38,7 @@ print(f'E a ordem de apresentação vai ser, {apresentacao}\n\n')
 
 
 
-print('EX12 - Faca um programa que leia um número de 0 a 9999 e mostre na tela cada um dos digitos separados.')
+print('EX004 - Faca um programa que leia um número de 0 a 9999 e mostre na tela cada um dos digitos separados.')
 num = int(input('Informe o número: '))
 n = str(num)
 
@@ -50,10 +50,10 @@ print(f'Milhar {n[0]} \n\n')
 
 
 
-print('EX13 - faça um programa que leia uma frase e mostre: quantas vezes apareceu a letra A, em que posição ela apareceu a primeir a vez e em que posição ela apareceu a últuma vez')
+print('EX005 - faça um programa que leia uma frase e mostre: quantas vezes apareceu a letra A, em que posição ela apareceu a primeir a vez e em que posição ela apareceu a últuma vez')
 
 frase = str(input('Digite a sua frase: ')).upper().strip()
-print(f'Analisando a frase ...')
+print('Analisando a frase...')
 print(f'Quantas vezes apareceu a letra "A": {frase.count("A")} vezes')
 print(f'Ela apareceu a primeira vez na posição: {frase.find("A")+1}')
 print(f'Ela apareceu a última vez na posição: {frase.rfind("A")+1}\n\n')
@@ -61,7 +61,7 @@ print(f'Ela apareceu a última vez na posição: {frase.rfind("A")+1}\n\n')
 
 
 
-print('EX14 - Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.')
+print('EX006 - Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.')
 nome5 = str(input('Digite seu nome completo: ')).strip().split()
 print(f'{nome5[0]} é um prazer lhe conhecer.')
 print('Ananlisando seu nome completo...')
