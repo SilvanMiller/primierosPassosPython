@@ -15,3 +15,7 @@ def teste():
     print('Olá, Mundo')
     
 teste()
+
+s = 'curso de python no cursoemvideo'
+r = s[:5]
+print(r)

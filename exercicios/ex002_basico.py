@@ -1,5 +1,5 @@
 # ---------- EXERCICIOS BASICOS E VAI MELHORAR --------------------
-'''
+
 
 print('EX001 - Faça um programa que leia um número inteiro e mostre na tela seu sucessor e seu antecessor.')
 n = int(input('Digite um númro inteiro: '))
@@ -85,7 +85,7 @@ km = float(input('Quantidade de Km rodado? '))
 pago = (dias * 60) + (km * 0.15)
 print(f'O total a pagar por {dias} dias alugados e R${pago:.2f}reais\n\n')
 
-'''
+
 
 print('EX12 - Faca um programa que leia um número de 0 a 9999 e mostre na tela cada um dos digitos separados.')
 num = int(input('Informe o número: '))
