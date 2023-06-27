@@ -5,30 +5,30 @@ postagens = [
     "Na casa da mamãe, almoçamos todos juntos",  # 3
 ]
 
-# TOTAL_PSTGNS = len(postagens) #usando o if e continue
-# POST = 0
-# while POST < TOTAL_PSTGNS: #enquanto essa condição for verdadeira, faça
-#    print(f'{POST} - {postagens[POST]}')
-#    POST += 1
-#    print("##############")
-# print("fim")
+TOTAL_PSTGNS = len(postagens) #usando o if e continue
+POST = 0
+while POST < TOTAL_PSTGNS: #enquanto essa condição for verdadeira, faça
+    print(f'{POST} - {postagens[POST]}')
+    POST += 1
+    print("##############")
+print("fim")
 
-# for postagem in postagens: #forma simplificada
-#    print(postagem)
-#    print("------------------------")
+for postagem in postagens: #forma simplificada
+   print(postagem)
+   print("------------------------")
 
-# for indice, postagem in enumerate(postagens): #enumerate vai enumerar as pstgns
-#    print(f'{indice} - {postagem}')
-#    print("------------------------")
-
-
-# for indice in range(0, 11): #testando o range (0 a 10)
-#    print(indice)
+for indice, postagem in enumerate(postagens): #enumerate vai enumerar as pstgns
+   print(f'{indice} - {postagem}')
+   print("------------------------")
 
 
-# TOTAL_PSTGNS = len(postagens)
-# for indice in range(TOTAL_PSTGNS): #testando o range (0 a 10)
-#    print(postagens[indice])
+for indice in range(0, 11): #testando o range (0 a 10)
+    print(indice)
+
+
+TOTAL_PSTGNS = len(postagens)
+for indice in range(TOTAL_PSTGNS): #testando o range (0 a 10)
+    print(postagens[indice])
 
 
 """

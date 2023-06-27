@@ -5,7 +5,7 @@ str -> string -> "textos"
 """
 #USO PARA ALGUNs ESTUDOS PARA AJUDAR NO ENTENDIMENTO
 
-nome = "Silvan"
+nome = "Silvan "
 sobrenome = "Miller"
 idade = 44
 ano_nascimento = 2023 - idade
