@@ -2,7 +2,7 @@
 from random import shuffle, choice
 
 
-print('EX001 - Crie um programa que leia o nome completo de uma pessoa e mostre:' 
+print('EX017 - Crie um programa que leia o nome completo de uma pessoa e mostre:' 
       'O nome em maiúsculo, minúsculo, número de letras e o tamanho do primeiro nome')
 nome = str(input('Digite seu nome completo ')).strip()
 separa = nome.split()
@@ -16,7 +16,7 @@ print(f'Seu primeiro nome que é {separa[0]} tem {len(separa[0])}\n\n')
 
 
 
-print('EX002 - Uma mãe quer sortear um dos seus quatros filhos para lavar a louça. Faça um programa que leia os nomes e sortei o escolhido')
+print('EX018 - Uma mãe quer sortear um dos seus quatros filhos para lavar a louça. Faça um programa que leia os nomes e sortei o escolhido')
 nome1 = input('Digite o nome do seu filho: ')
 nome2 = input('Digite o nome do seu outro filho: ')
 nome3 = input('Digite o nome do e outro filho: ')
@@ -27,7 +27,7 @@ print(f'E o felizardo(a) foi, trum trum trum {escolhido}\n\n')
 
 
 
-print('EX003 - Uma professora quer sortear a ordem de apresentação dos trabalhos. Faça um programa que leia o nome dos trabalhos e mostre a ordem sorteada ')
+print('EX019 - Uma professora quer sortear a ordem de apresentação dos trabalhos. Faça um programa que leia o nome dos trabalhos e mostre a ordem sorteada ')
 trab_1 = input('Digite o nome do grupo 1: ')
 trab_2 = input('Digite o nome do grupo 2: ')
 trab_3 = input('Digite o nome do grupo 3: ')
@@ -38,7 +38,7 @@ print(f'E a ordem de apresentação vai ser, {apresentacao}\n\n')
 
 
 
-print('EX004 - Faca um programa que leia um número de 0 a 9999 e mostre na tela cada um dos digitos separados.')
+print('EX020 - Faca um programa que leia um número de 0 a 9999 e mostre na tela cada um dos digitos separados.')
 num = int(input('Informe o número: '))
 n = str(num)
 
@@ -50,7 +50,7 @@ print(f'Milhar {n[0]} \n\n')
 
 
 
-print('EX005 - faça um programa que leia uma frase e mostre: quantas vezes apareceu a letra A, em que posição ela apareceu a primeir a vez e em que posição ela apareceu a últuma vez')
+print('EX021 - faça um programa que leia uma frase e mostre: quantas vezes apareceu a letra A, em que posição ela apareceu a primeir a vez e em que posição ela apareceu a últuma vez')
 
 frase = str(input('Digite a sua frase: ')).upper().strip()
 print('Analisando a frase...')
@@ -61,7 +61,7 @@ print(f'Ela apareceu a última vez na posição: {frase.rfind("A")+1}\n\n')
 
 
 
-print('EX006 - Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.')
+print('EX022 - Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.')
 nome5 = str(input('Digite seu nome completo: ')).strip().split()
 print(f'{nome5[0]} é um prazer lhe conhecer.')
 print('Ananlisando seu nome completo...')

@@ -3,7 +3,7 @@ from datetime import date
 from time import sleep
 
 
-print('EX001 - Escreva um programa que faça o computador pensar em um número inteiro entre 0 e 5. Peça para o usuário tentar descobrir qual o número escolhido pelo computador.')
+print('EX023 - Escreva um programa que faça o computador pensar em um número inteiro entre 0 e 5. Peça para o usuário tentar descobrir qual o número escolhido pelo computador.')
 
 jogador = int(input('Digite um numero inteiro qualquer: '))
 computador = randint(0, 5)
@@ -16,7 +16,7 @@ else:
     print(f'Você digitou o número {jogador} eu pensei em {computador}, é eu ganhei, continue tentando adivinhar. \n\n')
     
     
-print('EX002 - Escreva um programa que leia a velocidade de um carro e se ele ultrapassar 80km/h, mostre uma mensagem dizendo que foi multado e a multa custa R$ 7,00 por cada km acima do limite.')
+print('EX024 - Escreva um programa que leia a velocidade de um carro e se ele ultrapassar 80km/h, mostre uma mensagem dizendo que foi multado e a multa custa R$ 7,00 por cada km acima do limite.')
 velocidade = float(input('Digite a velocidade atual do carro: '))
 
 if velocidade > 80:
@@ -28,7 +28,7 @@ else:
     'Tenha um bom dia! Dirija com Segurança\n\n')
     
     
-print('EX003 - leia um programa que leia um número inteiro e mostre na tela se ele e PAR ou IMPAR.')
+print('EX025 - leia um programa que leia um número inteiro e mostre na tela se ele e PAR ou IMPAR.')
 n1 = int(input('Digite um número inteiro qualquer: '))
 resultado = n1 % 2
 if resultado == 0:
@@ -38,7 +38,7 @@ else:
 
 
 
-print('EX004 - desenvolva um programa que pergunte a distância de uma viagem em km. Calcule o preço da passagem, cobrando R$ 0,50 por km rodado ate 200km e R$ 0,45 para viagens mais longas')
+print('EX026 - desenvolva um programa que pergunte a distância de uma viagem em km. Calcule o preço da passagem, cobrando R$ 0,50 por km rodado ate 200km e R$ 0,45 para viagens mais longas')
 distancia = float(input('Digite a distancia da sua viagem: '))
 
 #if distancia <= 200:
@@ -52,7 +52,7 @@ print(f'Você vai percorrer {distancia}km')
 print(f'E o preço da passagem é de R$ {preco:.2f} reais\n\n')
 
 
-print('EX005 - faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.')
+print('EX027 - faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.')
 ano = int(input('Que ano quer analisar? Coloque 0(zero) para analisar o ano atual '))
 if ano == 0:
     ano = date.today().year
@@ -65,7 +65,7 @@ else:
 
 
 
-print('EX006 - faça um progrma que leia três números e mostre qual é o maior e qual é o menor')
+print('EX028 - faça um progrma que leia três números e mostre qual é o maior e qual é o menor')
 n1 = int(input('Digite o primeiro valor: '))
 n2 = int(input('Digite o segundo valor: '))
 n3 = int(input('Digite o terceiro valor: '))
@@ -84,7 +84,7 @@ print(f'O maior valor digitado foi {maior}\n\n')
 
 
 
-print('EX007 - escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$ 1.250,00 aumento de 10%, inferirores ou iguais aumento de 15%')
+print('EX029 - escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$ 1.250,00 aumento de 10%, inferirores ou iguais aumento de 15%')
 nome2 = str(input('Digite o nome do Funcionário: '))
 salario = float(input(f'Digite o valor do salário do {nome2} R$'))
 if salario <= 1250:
@@ -96,7 +96,7 @@ print(f'O funcionário {nome2} com base no seu salário de R${salario:.2f}'
     
     
 
-print('EX007 - faça um program que leia três retas e diga ao usuário se elas podem ou não formar um triangulo')
+print('EX030 - faça um program que leia três retas e diga ao usuário se elas podem ou não formar um triangulo')
 print('Analisador de Triângulo')
 r1 = float(input('Primeiro segmento: '))
 r2 = float(input('Segundo segmento: '))
@@ -108,8 +108,9 @@ else:
 
 
 
-print('Ex008 - Faça um jogo para o usuário adivinhar qual a palavra secreta.')
+print('Ex031 - Faça um jogo para o usuário adivinhar qual a palavra secreta.')
     #Você vai propor uma palavra secreta qualquer e vai dar a possibilidade para o usuário digitar apenas uma #letra. Quando o usuário digitar uma letra, você vai conferir se a letra digitada está na palavra secreta. Se a letra digitada estiver na palavra secreta; exiba a letra; Se a letra digitada não estiver na palavra secreta; exiba *. Faça a contagem de tentativas do seu usuário.
+    
 palavra_secreta = 'perfume'#aqui coloquei por defaut, mas o ideal e vc escolher a sua palavra secreta.
 letras_acertadas = ''
 numeros_tentativas = 0

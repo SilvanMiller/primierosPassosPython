@@ -15,6 +15,7 @@ else:
     print('Menor de idade')
     
 
+# condicional aninhada
 idade2 = 41
 if idade2 <=13:
     print('Criança')
