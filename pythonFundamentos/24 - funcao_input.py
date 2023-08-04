@@ -4,6 +4,7 @@
 #n_1 = input('Digite um número ')
 #n_2 = input('Digite outro número ')
 
+#fazendo uma tipagem melhor para não quebrar o codigo 
 #int_n1 = int(n_1)
 #int_n2 = int(n_2)
 
@@ -106,7 +107,7 @@
 #  S I L V A N 
 # -6-5-4-3-2-1
 
-nome = 'Silvan'
+nome = input('Digite seu nome')
 print(nome[1])
 print(nome[-4])
 print('v' in nome)
