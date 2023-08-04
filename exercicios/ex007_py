@@ -1,0 +1,60 @@
+print('EX034 - Faça um programa que peça ao usuário para digitar um número inteiro, informe se este número é par ou ímpar. Caso o usuário não digite um número inteiro, informe que não é um número inteiro\n')
+
+num = input('Digite um número inteiro: ')
+try:
+    int_num = int(num)
+    resultado = int_num % 2
+    if resultado == 0:
+        print(f'O número que você digitou foi {num} ele é PAR')
+    else:
+        print(f'O número que você digitou foi {num} ele é IMPAR')
+except:
+    print(f'você digitou {num}, isso não é um número inteiro.')
+
+# ---------------------------------------------------------------
+
+#entrada = input('Digite um número inteiro: ')
+#if entrada.isdigit():
+#    entrada_int = int(entrada)
+#    par_impar = entrada_int % 2 == 0
+#    par_impar_txt = 'impar'
+    
+#    if par_impar:
+#        par_impar_txt = 'par'
+        
+#    print(f'O número {entrada_int} é {par_impar_txt}')
+#else:
+#    print(f'você digitou {entrada}, isso não é um número inteiro.')
+
+print('\n')
+#---------------------------------
+print('EX035 - Faça um programa que pergunte a hora ao usuário e, baseado-se no horário descrito, exipa a saudação apropriada\n')
+
+entrada = input('Digite a hora em número inteiro: ')
+try:
+    hora = int(entrada)
+    if hora >= 0 and hora <= 11:
+        print(f'Bom dia!')
+    elif hora > 11 and hora <= 17:
+        print(f'Boa tarde!')
+    elif hora > 17 and hora <= 23:
+        print(f'Boa Noite!')
+except:
+    print(f'você digitou {entrada}, isso não é um número inteiro.')
+
+print('\n\n')
+#---------------------------------
+print('EX036 - Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou menos escreva - seu nome é curto; se tiver entre 5 e 6 letras, escreva - seu nome é normal; maior que 6 escreva - seu nome é muito grande\n')
+
+nome = str(input('Digite seu nome: ')).strip()
+int_nome = len(nome) - nome.count(" ")
+
+if int_nome > 1:
+    if int_nome <= 4:
+        print(f'{nome} seu nome é curto')
+    elif int_nome >= 5 and int_nome <= 6:
+        print(f'{nome} seu nome é normal')
+    else:
+        print(f'{nome} seu nome é muito grande')
+else:
+    print('Digite mais de uma letra')
