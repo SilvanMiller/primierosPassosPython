@@ -29,3 +29,29 @@ lista = ["Silvan", "Miguel", "Micaela", "Itamar", "Thereza"]
 #lista.sort()#Ordena a lista em ordem alfabetica  
 
 print(lista)#pode ver que foi feita a alteração no item 0 da lista(mutavel)
+
+#           0         1       2        3         4       5       6
+fruits = ['Maça', 'Banana', 'Uva', 'Laranja', 'kiwi', 'melão', 'manga' ]
+print(fruits[2:5])
+
+
+thislist = ["Maça", "Banana", "Uva"]
+tropical = ["Manga", "Abacaxi", "Mamão"]
+
+#thislist.pop(-1)
+#tropical.clear()
+thislist.extend(tropical)
+
+#print(thislist)
+
+for x in thislist:
+    print(x)
+    
+#for i in range(len(thislist)):
+#    print(thislist[i])
+
+item = 0
+while item < len(thislist):
+    print(thislist)
+    item = item + 1
+    

@@ -25,5 +25,50 @@ if carro_passou_r1:
     print('Carro passou no Radar 1')
 if carro_multado:
     print('Carro multado no Radar 1')
-    
-    
+
+#VARIAVEIS EM UMA LINHA -------------------------------
+x, y, z = 'Orange', 'Banana', 'Cherry'
+print(z, x, y)
+
+#UM VALOR PARA VÁRIAS VARIAVEIS -------------------------------
+x = y = z = 'Silvan'
+print(x)
+print(y)
+print(z)
+
+#DESCOMPACTAR UMA COLEÇÃO EM VARIAVEIS -------------------------------
+fruits = ['maça', 'banaba', 'uva']
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+#GERAR VÁRIAS VARIAVEIS -----------------------------------------
+x = 5
+y = 'Jhon'
+print(y, x)
+
+#CRIAR UMA VARIAVEL DENTRO DA FUNÇÃO -----------------------------------------
+x = 'global'
+
+def minhaFuncao():
+    x = 'local'
+    print('Variavel ' + x)
+
+minhaFuncao()
+
+print('Variavel ' + x)
+
+#TIPOS DE VARIAVEIS - e = potencia de 10 ------------------------------------
+x = 3+5j
+y = 12E4
+z = -87.7e100
+
+print(type(x), x)
+print(type(y), y)
+print(type(z), z)
+
+
+
+
+
